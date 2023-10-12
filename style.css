@@ -1,0 +1,87 @@
+/*Default Code Start Here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border:1px solid #ff0000;  */
+}
+
+html {
+  font-size: 62.5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+  font-family: 'Figtree', sans-serif;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Website Code Starts Here */
+
+.newsletterContainer {
+  background-color: rgba(205, 250, 213, 0.5);
+  width: 55%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 140px;
+  border-radius: 5px;
+}
+
+.newsletter h2 {
+  text-align: center;
+  position: relative;
+  top: 8px;
+}
+
+#text-input {
+  width: 58%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  /* margin-left: 85px; */
+  right: 17px;
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.emailform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subscribe button {
+
+  background-color: #a4a9b0;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 22px 40px 6px;
+  font-family: 'Figtree', sans-serif;
+  cursor: pointer;
+  position: relative;
+  right: 75px;
+  top: 15px;
+  text-align: center;
+}
+
+.subscribe button h2 {
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+}
