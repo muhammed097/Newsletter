@@ -85,3 +85,58 @@ body {
   position: relative;
   bottom: 6px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    background-color: yellowgreen;
+  }
+
+.newsletterContainer {
+  background-color: rgba(205, 250, 213, 0.5);
+  width: 80%;
+  height: 165px;
+  margin: auto;
+  position: relative;
+  top: 140px;
+  border-radius: 5px;
+}
+
+
+.subscribe button {
+
+   background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 21px 40px 9px;
+    font-family: 'Figtree', sans-serif;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    text-align: center;
+}
+
+
+.subscribe button h2 {
+  color: #ffffff;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+}
+
+.emailform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text-input {
+  width: 85%;
+  position: relative;
+  top: 25px;
+  right: 1px;
+
+}
+}
